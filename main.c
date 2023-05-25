@@ -31,7 +31,6 @@ int main(int argc, char **argv)
 	initVar(filedes);
 	no_of_char_read = getLine(&glbVar.buffer, &size, filedes);
 	while (no_of_char_read != -1)
-		
 	{
 		first_token = strtok(glbVar.buffer, " \t\n");
 		if (first_token && first_token[0] != '#')

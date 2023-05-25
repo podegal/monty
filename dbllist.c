@@ -17,7 +17,7 @@ stack_t *add_node_beg(stack_t **head, const int n)
 	if (!beg)
 	{
 		fprintf(stderr, "Error: malloc failed\n");
-		free_var();
+		freeVar();
 		exit(EXIT_FAILURE);
 	}
 	beg->n = n;

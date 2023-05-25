@@ -59,7 +59,7 @@ ssize_t getLine(char **lineptr, size_t *n, FILE *stream)
 		if (*n - strlen(*lineptr) < sizeof(buffer))
 		{
 			*n *= 2;
-			*lineptr = re_alloc(*line, *n / 2, *n);
+			*lineptr = re_alloc(*lineptr, *n / 2, *n);
 			if (!(*lineptr))
 			{
 				free(lineptr);

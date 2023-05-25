@@ -61,7 +61,7 @@ typedef struct data_s
 	int sq;
 } data_t;
 
-extern data_t globalVar;
+extern data_t glbVar;
 
 /* global variable functions */
 void initVar(FILE *filedes);

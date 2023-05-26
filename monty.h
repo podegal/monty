@@ -94,5 +94,7 @@ void op_queue(stack_t **stack, unsigned int line_number);
 void op_add(stack_t **stack, unsigned int line_number);
 void op_sub(stack_t **stack, unsigned int line_number);
 void op_mul(stack_t **stack, unsigned int line_number);
+void op_pstr(stack_t **stack, unsigned int line_number);
+void op_rotr(stack_t **stack, unsigned int line_number);
 
 #endif

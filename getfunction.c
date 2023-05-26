@@ -14,6 +14,7 @@ void (*getFunc(char *operatn))(stack_t **stack, unsigned int line_number)
 		{"swap", op_swap}, {"add", op_add},
 		{"nop", op_nop}, {"sub", op_sub},
 		{"div", op_div}, {"mul", op_mul},
+		{"mod", op_mod}, {"pchar", op_pchar}, 
 		{NULL, NULL}
 	};
 

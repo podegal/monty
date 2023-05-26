@@ -17,7 +17,7 @@ void (*getFunc(char *operatn))(stack_t **stack, unsigned int line_number)
 		{"mod", op_mod}, {"pchar", op_pchar},
 		{"pstr", op_pstr}, {"rotl", op_rotl},
 		{"stack", op_stack}, {"queue", op_queue},
-		{NULL, NULL}
+		{"rotr", op_rotr}, {NULL, NULL}
 	};
 
 	int i;

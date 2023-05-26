@@ -19,7 +19,6 @@ void op_rotr(stack_t **head, unsigned int linenum)
 		temp = *head;
 		while (temp->next)
 			temp = temp->next;
-		
 		new = temp->prev;
 		new->next = NULL;
 		temp->next = *head;
